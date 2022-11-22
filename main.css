@@ -1,0 +1,143 @@
+:root {
+  --bg-color: #00b7af;
+  --txt-pri-color: #f95f69;
+  --txt-sec-color: #4900C8;
+  --txt-ter-color: #FFFFFF;
+  --medphys-color: #006fcb;
+  --optics-color: #2832C9;
+  --vision-color: #4900C8;
+  --python-color: #6C2BD0;
+}
+
+html {
+  font-family: "Trebuchet MS", sans-serif; #"DejaVuMarkupOblique"
+  font-weight: normal;
+}
+
+body {
+  background-color: var(--bg-color);
+  padding-left: 60px;
+  margin: 0 auto;
+  margin-bottom: 0px;
+  overflow: hidden;
+  min-width: 280px;
+  width: 92%;
+  margin-bottom: 1em;
+  max-width: 1200px;
+}
+
+h1 {
+  font-style: normal;
+  font-size: 40px;
+  color: var(--txt-pri-color);
+  letter-spacing: 3px;
+  text-shadow: 1px 1px var(--txt-sec-color);
+}
+
+h2 {
+  font-style: italic;
+  font-size: 35px;
+  letter-spacing: 8px;
+}
+
+h3 {
+  font-style: italic;
+  font-size: 22px;
+  color: var(--txt-pri-color);
+  letter-spacing: 8px;
+}
+
+p {
+  text-indent: 0px;
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+  text-indent: 0px;
+}
+
+.header {
+  padding-bottom: 40px;
+}
+
+.entry {
+  font-style: normal;
+  font-size: 18px;
+  color: 	var(--txt-sec-color);
+}
+
+.entry_container {
+  padding-left: 0px;
+  display: none;
+}
+
+.link {
+  color: var(--txt-sec-color);
+  text-decoration: none;
+}
+
+.name {
+  padding-left: 120px;
+  padding-top: 50px;
+}
+
+.link_container {
+  padding-left: 30px;
+  padding-bottom: 15px;
+  margin: auto;
+  width: 100%;
+}
+
+.toggle_title {
+  cursor: pointer;
+  padding-left: 0x;
+  padding-top: 40px;
+  color: var(--txt-pri-color);
+  text-shadow: 1px 1px var(--txt-sec-color);
+}
+
+.content {
+  /* height: 500px; */
+  /* padding-left: 50px */
+}
+
+.toggle_title:hover {
+  text-decoration: underline;
+}
+
+.link:hover {
+  color: var(--txt-pri-color);
+  text-shadow: 1px 1px var(--txt-sec-color);
+}
+
+.entry:hover {
+  color: var(--txt-pri-color);
+  background-color: var(--txt-sec-color);
+}
+
+#intro {
+  color: var(--txt-ter-color);
+  font-size: 50px;
+}
+
+#intro_container {
+  padding-bottom: 35px;
+}
+
+#medphys {
+  color: var(--medphys-color);
+}
+
+#optics {
+  color: var(--optics-color);
+}
+
+#vision {
+  color: var(--vision-color);
+}
+
+#python {
+  color: var(--python-color);
+}
