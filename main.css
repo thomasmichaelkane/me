@@ -19,7 +19,7 @@ body {
   padding-left: 60px;
   margin: 0 auto;
   margin-bottom: 0px;
-  overflow: hidden;
+  overflow-x: hidden;
   min-width: 280px;
   width: 92%;
   margin-bottom: 1em;
