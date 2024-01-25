@@ -10,7 +10,7 @@
 }
 
 html {
-  font-family: "Trebuchet MS", sans-serif; #"DejaVuMarkupOblique"
+  font-family: "Trebuchet MS", sans-serif; /*"DejaVuMarkupOblique"*/
   font-weight: normal;
 }
 
@@ -28,10 +28,12 @@ body {
 
 h1 {
   font-style: normal;
-  font-size: 40px;
-  color: var(--txt-pri-color);
+  font-size: 50px;
+  font-weight: normal;
+  /* color: var(--txt-pri-color); */
+  color:  var(--txt-ter-color);
   letter-spacing: 3px;
-  text-shadow: 1px 1px var(--txt-sec-color);
+  /* text-shadow: 1px 1px var(--txt-sec-color); */
 }
 
 h2 {
@@ -87,7 +89,7 @@ a {
   padding-left: 30px;
   padding-bottom: 15px;
   margin: auto;
-  width: 100%;
+/*   width: 100%; */
 }
 
 .toggle_title {
@@ -98,10 +100,10 @@ a {
   text-shadow: 1px 1px var(--txt-sec-color);
 }
 
-.content {
-  /* height: 500px; */
-  /* padding-left: 50px */
-}
+/* .content {
+    height: 500px;
+    padding-left: 50px
+} */
 
 .toggle_title:hover {
   text-decoration: underline;
