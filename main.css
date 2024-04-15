@@ -17,7 +17,6 @@ html {
 
 body {
   background-color: var(--bg-color);
-  padding-left: 60px;
   margin: 0 auto;
   margin-bottom: 0px;
   overflow-x: hidden;
@@ -61,6 +60,11 @@ a {
   text-indent: 0px;
 }
 
+.gif {
+  max-width: 100%;
+  height: auto;
+}
+
 .header {
   padding-bottom: 40px;
 }
@@ -71,9 +75,8 @@ a {
   color: 	var(--txt-sec-color);
 }
 
-.entry_container {
+.entry-container {
   padding-left: 0px;
-  display: none;
 }
 
 .link {
@@ -82,18 +85,23 @@ a {
 }
 
 .name {
-  padding-left: 120px;
   padding-top: 50px;
+  margin: 0 auto;
+  overflow: hidden;
+  width: 80%;
+  margin-bottom: 1em;
+  max-width: 1000px;
 }
 
-.link_container {
+.link-container {
   padding-left: 30px;
+  padding-right: 30px;
   padding-bottom: 15px;
   margin: auto;
 /*   width: 100%; */
 }
 
-.toggle_title {
+.toggle-title {
   cursor: pointer;
   padding-left: 0x;
   padding-top: 40px;
@@ -101,12 +109,16 @@ a {
   text-shadow: 1px 1px var(--txt-sec-color);
 }
 
-/* .content {
-    height: 500px;
-    padding-left: 50px
-} */
+.content {
+  margin: 0 auto;
+  overflow: hidden;
+  min-width: 360px;
+  width: 92%;
+  margin-bottom: 1em;
+  max-width: 1000px;
+}
 
-.toggle_title:hover {
+.toggle-title:hover {
   text-decoration: underline;
 }
 
@@ -120,13 +132,35 @@ a {
   background-color: var(--txt-sec-color);
 }
 
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.description {
+  color: var(--txt-ter-color);
+  font-size: 24px;
+  font-size: 4vmin;
+}
+
+#entry-closed {
+  display: none;
+}
+
 #intro {
   color: var(--txt-ter-color);
   font-size: 35px;
 }
 
-#intro_container {
-  padding-bottom: 35px;
+#intro-container {
+  margin: 0 auto;
+  overflow: hidden;
+  min-width: 400px;
+  width: 92%;
+  margin-bottom: 1em;
+  max-width: 1100px;
+  padding-bottom: 20px;
 }
 
 #medphys {
