@@ -1,13 +1,13 @@
 :root {
-  --bg-color: #00b7af;
+  --bg-color: #192432;
   --txt-pri-color: #f95f69;
-  --txt-sec-color: #4900C8;
+  --txt-sec-color: #cbb7d2;
   --txt-ter-color: #FFFFFF;
-  --medphys-color: #006fcb;
-  --optics-color: #2832C9;
-  --vision-color: #4900C8;
-  --python-color: #005900;
-  --rust-color: #B7410E;
+  --medphys-color: #bf8dd2;
+  --optics-color: #bf8dd2;
+  --genetics-color: #bf8dd2;
+  --python-color: #4b7b45;
+  --rust-color: #af5d39;
 }
 
 html {
@@ -171,8 +171,8 @@ a {
   color: var(--optics-color);
 }
 
-#vision {
-  color: var(--vision-color);
+#genetics {
+  color: var(--genetics-color);
 }
 
 #python {
